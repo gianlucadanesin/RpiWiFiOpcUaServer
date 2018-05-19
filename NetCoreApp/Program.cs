@@ -11,11 +11,10 @@ using Opc.Ua;
 using Opc.Ua.Configuration;
 using Opc.Ua.Server;
 
-namespace netcoreapp
+namespace NetCoreApp
 {
     class Program
     {
-
         public static bool isWindows = false;
         static void Main(string[] args)
         {
@@ -203,45 +202,6 @@ namespace netcoreapp
             }
         }
 
-        //public class ApplicationMessageDlg : ApplicationMessageDlg
-        //{
-        //    private string message = string.Empty;
-        //    private bool ask = false;
-
-        //    public override void Message(string text, bool ask)
-        //    {
-        //        this.message = text;
-        //        this.ask = ask;
-        //    }
-
-        //    public override async Task<bool> ShowAsync()
-        //    {
-        //        if (ask)
-        //        {
-        //            message += " (y/n, default y): ";
-        //            Console.Write(message);
-        //        }
-        //        else
-        //        {
-        //            Console.WriteLine(message);
-        //        }
-        //        if (ask)
-        //        {
-        //            try
-        //            {
-        //                ConsoleKeyInfo result = Console.ReadKey();
-        //                Console.WriteLine();
-        //                return await Task.FromResult((result.KeyChar == 'y') || (result.KeyChar == 'Y') || (result.KeyChar == '\r'));
-        //            }
-        //            catch
-        //            {
-        //                // intentionally fall through
-        //            }
-        //        }
-        //        return await Task.FromResult(true);
-        //    }
-        //}
-
         public enum ExitCode : int
         {
             Ok = 0,
@@ -250,8 +210,6 @@ namespace netcoreapp
             ErrorServerException = 0x82,
             ErrorInvalidCommandLine = 0x100
         };
-
-
 
     }
 }

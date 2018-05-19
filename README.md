@@ -34,7 +34,7 @@ chmod 755 ./netcoreapp
 For local browsing, use the address:
 opc.tcp://localhost:62567/RpiWiFiOpcUaServer
 
-# Tip for Siemens Simatic TIA Advanced
+### Tip for Siemens Simatic TIA Advanced
 OPC UA Client driver on TIA Advanced requires name resolution.  
 For the driver to work, you need to enter the OpcUa server IP address on the host file (On Windows PCs), or
 lmhosts registry entries (On Windows CE)  

@@ -10,58 +10,6 @@ namespace netcoreapp
 {
     class RaspbianTerm
     {
-
-        static void Test()
-        {
-
-            Console.Write("ENTER to check networks status"); Console.ReadLine();
-            Console.Write(run_cmd("nmcli", "device status"));
-
-            Console.Write("ENTER to disconnect from wifi network"); Console.ReadLine();
-            Console.Write(run_cmd("nmcli", $"device disconnect wlan0"));
-
-            Console.Write("ENTER to check networks status"); Console.ReadLine();
-            Console.Write(run_cmd("nmcli", "device status"));
-
-            Console.Write("ENTER to begin wifi rescan"); Console.ReadLine();
-            Console.Write(run_cmd("nmcli", "device wifi rescan"));
-
-            Console.Write("ENTER to list available wifi networks"); Console.ReadLine();
-            Console.Write(run_cmd("nmcli", "device wifi list"));
-
-            Console.Write("ENTER to connect to wifi network"); Console.ReadLine();
-            Console.Write(run_cmd("nmcli", "device wifi connect TP-LINK_49F0F6 password luckyblack"));
-
-            Console.Write("ENTER to check networks status"); Console.ReadLine();
-            Console.Write(run_cmd("nmcli", "device status"));
-
-            Console.Write("ENTER to quit"); Console.ReadLine();
-
-            //Console.Write("ENTER to list wifi networks"); Console.ReadLine();
-            //Console.Write(run_cmd("wpa_cli","-i wlan0 scan_results"));
-
-            //Console.ReadLine();
-            //string sNetID = run_cmd("wpa_cli","add_network").Split(new char[] {'\n'})[1];
-            //sNetID.Replace("\n","");
-            //int NetID = -1;
-            //if (int.TryParse(sNetID,out NetID))
-            //{
-            //    Console.Write($"Network ID = {NetID.ToString()}");
-            //    Console.ReadLine();
-            //    Console.Write(run_cmd("wpa_cli",$"set_network {NetID.ToString()} ssid \"TP-LINK_49F0F6\""));
-            //    Console.ReadLine();
-            //    Console.Write(run_cmd("wpa_cli",$"set_network {NetID.ToString()} psk \"luckyblack\""));
-            //    Console.ReadLine();
-            //    Console.Write(run_cmd("wpa_cli",$"enable_network {NetID.ToString()}"));
-            //}
-            //else
-            //{
-            //    Console.Write($"Invalid Network ID = '{sNetID}'");
-
-            //}
-            //Console.ReadLine();
-        }
-
         public static List<WiFiDefinition> GetListOfWiFiSSIDs()
         {
             bool isWindows = System.Runtime.InteropServices.RuntimeInformation
@@ -77,8 +25,8 @@ namespace netcoreapp
             else
             {
                 cmdResult = "*  SSID            MODE   CHAN  RATE       SIGNAL  BARS  SECURITY \n" +
-                            "   Lumia 650 6630  Infra  11    54 Mbit/s  100     ▂▄▆█  WPA2     \n" +
-                            "*  TP-LINK_49F0F6  Infra  6     54 Mbit/s  30      ▂___  WPA2     \n" +
+                            "   TEST_WIFI_SSID  Infra  11    54 Mbit/s  100     ▂▄▆█  WPA2     \n" +
+                            "*  TEST_WIFI_SSID2 Infra  6     54 Mbit/s  30      ▂___  WPA2     \n" +
                             "   TESTWIFI        Infra  6     54 Mbit/s  30      ▂___  WPA2     \n" +
                             "   TESTWIFI        Infra  6     54 Mbit/s  30      ▂___  WEP      \n";
             }
@@ -94,9 +42,9 @@ namespace netcoreapp
             List<string> SSIDEntries = cmdResult.Split(new char[] { '\n' }).Skip(1).ToList<String>();
             /*
 *  SSID            MODE   CHAN  RATE       SIGNAL  BARS  SECURITY 
-   Lumia 650 6630  Infra  11    54 Mbit/s  100     ▂▄▆█  WPA2     
-*  TP-LINK_49F0F6  Infra  11    54 Mbit/s  100     ▂▄▆█  WPA2     
-   TP-LINK_49F0F6  Infra  6     54 Mbit/s  40      ▂▄__  WPA2     
+   TEST_WIFI_SSID  Infra  11    54 Mbit/s  100     ▂▄▆█  WPA2     
+*  TEST_WIFI_SSID2 Infra  11    54 Mbit/s  100     ▂▄▆█  WPA2     
+   TEST_WIFI_SSID2 Infra  6     54 Mbit/s  40      ▂▄__  WPA2     
 
                 */
             foreach (var SSIDEntry in SSIDEntries)
@@ -150,7 +98,7 @@ namespace netcoreapp
                 /*
 DEVICE  TYPE      STATE      CONNECTION       
 eth0    ethernet  connected  Ifupdown (eth0)  
-wlan0   wifi      connected  TP-LINK_49F0F6 8 
+wlan0   wifi      connected  TEST_WIFI_SSID 8 
 lo      loopback  unmanaged  --               
  
                 */
@@ -160,7 +108,7 @@ lo      loopback  unmanaged  --
             {
                 Status = "DEVICE  TYPE      STATE      CONNECTION       \n" +
                          "eth0    ethernet  connected  Ifupdown (eth0)  \n" +
-                         "wlan0   wifi      connected  TP-LINK_49F0F6 8 \n" +
+                         "wlan0   wifi      connected  TEST_WIFI_SSID 8 \n" +
                          "lo      loopback  unmanaged  --               \n";
             }
             string HeaderRow = Status.Split(new char[] { '\n' })[0];

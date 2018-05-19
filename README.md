@@ -29,3 +29,7 @@ iface eth0 inet static
 terminal on app folder  
 chmod 755 ./netcoreapp  
 ./netcoreapp  
+
+## Connecting from a OPC UA Client
+For local browsing, use the address:
+opc.tcp://localhost:62567/RpiWiFiOpcUaServer

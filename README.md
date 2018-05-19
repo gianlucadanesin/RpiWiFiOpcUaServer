@@ -5,7 +5,7 @@ This project is meant to give access to the WiFi interface of a Raspberry Pi 3 v
 dotnet publish -r linux-arm --self-contained -f netcoreapp2.0
 
 # Raspberry Pi Deploy Guideline
-# Procedures required on Raspberry Pi (Raspian Stretch):
+Procedures required on Raspberry Pi (Raspian Stretch):
 =================================
 1 -Install the .NET Core Runtime 2.0
 =================================

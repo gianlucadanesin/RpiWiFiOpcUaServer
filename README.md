@@ -15,17 +15,17 @@ https://blogs.msdn.microsoft.com/david/2017/07/20/setting_up_raspian_and_dotnet_
 sudo apt-get install network-manager
 
 ### 3-SET STATIC IP FOR LAN and network-manager for Wifi
-modify /etc/network/interfaces
-
-auto lo
-iface lo inet loopback
-
-iface eth0 inet static
-        address 192.168.1.132
-        gateway 192.168.1.254
-        netmask 255.255.255.0
-
+modify /etc/network/interfaces  
+  
+auto lo  
+iface lo inet loopback  
+  
+iface eth0 inet static  
+        address 192.168.1.132 (* MODIFY THE ADDRESS AS PREFERRED *)  
+        gateway 192.168.1.254 (* MODIFY THE ADDRESS AS PREFERRED *)   
+        netmask 255.255.255.0 (* MODIFY THE MASK AS PREFERRED *)   
+  
 ### 4-LAUNCH NET CORE APP:
-terminal on app folder
-chmod 755 ./netcoreapp
-./netcoreapp
+terminal on app folder  
+chmod 755 ./netcoreapp  
+./netcoreapp  

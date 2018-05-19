@@ -6,8 +6,8 @@ dotnet publish -r linux-arm --self-contained -f netcoreapp2.0
 
 # Raspberry Pi Deploy Guideline
 Procedures required on Raspberry Pi (Raspian Stretch):
-=================================
-1 -Install the .NET Core Runtime 2.0
+
+# 1-Install the .NET Core Runtime 2.0
 =================================
 Run sudo apt-get install curl libunwind8 gettext. This will use the apt-get package manager to install three prerequiste packages.
 Run curl -sSL -o dotnet.tar.gz https://dotnetcli.blob.core.windows.net/dotnet/Runtime/release/2.0.0/dotnet-runtime-latest-linux-arm.tar.gz to download the latest .NET Core Runtime for ARM32. This is refereed to as armhf on the Daily Builds page.

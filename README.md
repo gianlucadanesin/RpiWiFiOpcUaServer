@@ -2,6 +2,8 @@
 This project is meant to host a OpcUa Server on a Raspberry Pi, in order to give access to the WiFi interface connectivity.  
 OpcUa has been chosen, as it is commonly available in all major SCADA and HMI systems.  
 The objective of this application is to allow the SCADA or HMI operator connect the Rpi WiFi to the internet by using his own mobile phone as an hotspot.  
+The project relies on the OpcFoundation Nuget OPCFoundation.NetStandard.Opc.Ua  
+https://www.nuget.org/packages/OPCFoundation.NetStandard.Opc.Ua/  
 
 ## NetCore Console App deploying for Arm
 dotnet publish -r linux-arm --self-contained -f netcoreapp2.0

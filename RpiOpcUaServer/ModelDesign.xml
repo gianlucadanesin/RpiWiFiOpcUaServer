@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<opc:ModelDesign
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:opc="http://opcfoundation.org/UA/ModelDesign.xsd"
+  xmlns:ua="http://opcfoundation.org/UA/"
+  xmlns:uax="http://opcfoundation.org/UA/2008/02/Types.xsd"
+	xmlns="http://opcfoundation.org/RpiWiFiOpcUa"
+  TargetNamespace="http://opcfoundation.org/RpiWiFiOpcUa"
+>
+  <!-- 
+  This element defines the mappings between the URIs used to identify namespaces and the symbols used in code.
+  User defined design files can include other user defined design files.
+  The location of included design files is specified with the FilePath attribute (absolute or relative path without the .xml suffix).
+  -->
+  <opc:Namespaces>
+    <opc:Namespace Name="OpcUa" Prefix="Opc.Ua" XmlNamespace="http://opcfoundation.org/UA/2008/02/Types.xsd">http://opcfoundation.org/UA/</opc:Namespace>
+    <opc:Namespace Name="RpiWiFiOpcUa" Prefix="RpiWiFiOpcUa">http://opcfoundation.org/RpiWiFiOpcUa</opc:Namespace>
+  </opc:Namespaces>
+
+  <!--DataTypes -->
+  <opc:ObjectType SymbolicName="RpiWiFiInterface" BaseType="ua:BaseObjectType">
+    <opc:Description>Rpi Wireless Interface.</opc:Description>
+    <opc:Children>
+      <opc:Variable SymbolicName="WiFi1_SSID" DataType="ua:String" AccessLevel="Read" />
+      <opc:Variable SymbolicName="WiFi2_SSID" DataType="ua:String" AccessLevel="Read" />
+      <opc:Variable SymbolicName="WiFi3_SSID" DataType="ua:String" AccessLevel="Read" />
+      <opc:Variable SymbolicName="WiFi4_SSID" DataType="ua:String" AccessLevel="Read" />
+      <opc:Variable SymbolicName="WiFi5_SSID" DataType="ua:String" AccessLevel="Read" />
+      <opc:Variable SymbolicName="SelWiFiPasskey" DataType="ua:String" AccessLevel="ReadWrite" />
+      <opc:Variable SymbolicName="WiFi1_Connected" DataType="ua:Boolean" AccessLevel="Read" />
+      <opc:Variable SymbolicName="WiFi2_Connected" DataType="ua:Boolean" AccessLevel="Read" />
+      <opc:Variable SymbolicName="WiFi3_Connected" DataType="ua:Boolean" AccessLevel="Read" />
+      <opc:Variable SymbolicName="WiFi4_Connected" DataType="ua:Boolean" AccessLevel="Read" />
+      <opc:Variable SymbolicName="WiFi5_Connected" DataType="ua:Boolean" AccessLevel="Read" />
+      <opc:Variable SymbolicName="WiFi1_ConnectCmd" DataType="ua:Boolean" AccessLevel="Write" />
+      <opc:Variable SymbolicName="WiFi2_ConnectCmd" DataType="ua:Boolean" AccessLevel="Write" />
+      <opc:Variable SymbolicName="WiFi3_ConnectCmd" DataType="ua:Boolean" AccessLevel="Write" />
+      <opc:Variable SymbolicName="WiFi4_ConnectCmd" DataType="ua:Boolean" AccessLevel="Write" />
+      <opc:Variable SymbolicName="WiFi5_ConnectCmd" DataType="ua:Boolean" AccessLevel="Write" />
+      <opc:Variable SymbolicName="WiFi_DisconnectCmd" DataType="ua:Boolean" AccessLevel="Write"/>
+    </opc:Children>
+  </opc:ObjectType>
+
+  <opc:ObjectType SymbolicName="RpiFolder" BaseType="ua:FolderType">
+  </opc:ObjectType>
+
+  <opc:ObjectType SymbolicName="RpiType" BaseType="ua:BaseObjectType" SupportsEvents="true">
+    <opc:Description>Raspberry Pi OPC UA Interface.</opc:Description>
+    <opc:Children>
+
+      <opc:Object SymbolicName="WiFi" TypeDefinition="RpiWiFiInterface" SupportsEvents="true">
+        <opc:BrowseName>RpiWiFi</opc:BrowseName>
+        <opc:Children>
+          <opc:Variable SymbolicName="WiFi1_SSID" />
+          <opc:Variable SymbolicName="WiFi2_SSID" />
+          <opc:Variable SymbolicName="WiFi3_SSID" />
+          <opc:Variable SymbolicName="WiFi4_SSID" />
+          <opc:Variable SymbolicName="WiFi5_SSID" />
+          <opc:Variable SymbolicName="SelWiFiPasskey" />
+          <opc:Variable SymbolicName="WiFi1_Connected" />
+          <opc:Variable SymbolicName="WiFi2_Connected" />
+          <opc:Variable SymbolicName="WiFi3_Connected" />
+          <opc:Variable SymbolicName="WiFi4_Connected" />
+          <opc:Variable SymbolicName="WiFi5_Connected" />
+          <opc:Variable SymbolicName="WiFi1_ConnectCmd" />
+          <opc:Variable SymbolicName="WiFi2_ConnectCmd" />
+          <opc:Variable SymbolicName="WiFi3_ConnectCmd" />
+          <opc:Variable SymbolicName="WiFi4_ConnectCmd" />
+          <opc:Variable SymbolicName="WiFi5_ConnectCmd" />
+          <opc:Variable SymbolicName="WiFi_DisconnectCmd" />
+        </opc:Children>
+      </opc:Object>
+    </opc:Children>
+
+    <opc:References>
+    </opc:References>
+
+  </opc:ObjectType>
+
+  <opc:Object SymbolicName="Rpi" TypeDefinition="RpiType" SupportsEvents="true">
+    <opc:BrowseName>Raspberry Pi</opc:BrowseName>
+    <opc:Children>
+      <opc:Object SymbolicName="WiFi" TypeDefinition="RpiWiFiInterface" SupportsEvents="true">
+        <opc:DisplayName>RpiWiFi</opc:DisplayName>
+      </opc:Object>
+    </opc:Children>
+    <!--
+    Link the instance back to the ObjectsFolder
+      -->
+    <opc:References>
+      <opc:Reference IsInverse="true">
+        <opc:ReferenceType>ua:Organizes</opc:ReferenceType>
+        <opc:TargetId>ua:ObjectsFolder</opc:TargetId>
+      </opc:Reference>
+    </opc:References>
+  </opc:Object>
+
+</opc:ModelDesign>

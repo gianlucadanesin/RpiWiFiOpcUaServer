@@ -8,11 +8,8 @@ dotnet publish -r linux-arm --self-contained -f netcoreapp2.0
 Procedures to be performed on the Raspberry Pi (Raspian Stretch)
 
 ### 1-Install the .NET Core Runtime 2.0
-Run sudo apt-get install curl libunwind8 gettext. This will use the apt-get package manager to install three prerequiste packages.
-Run curl -sSL -o dotnet.tar.gz https://dotnetcli.blob.core.windows.net/dotnet/Runtime/release/2.0.0/dotnet-runtime-latest-linux-arm.tar.gz to download the latest .NET Core Runtime for ARM32. This is refereed to as armhf on the Daily Builds page.
-Run sudo mkdir -p /opt/dotnet && sudo tar zxf dotnet.tar.gz -C /opt/dotnet to create a destination folder and extract the downloaded package into it.
-Run sudo ln -s /opt/dotnet/dotnet /usr/local/bin` to set up a symbolic link...a shortcut to you Windows folks 😉 to the dotnet executable.
-Test the installation by typing dotnet --help.
+See the tutorial below for the installation of the Net Core Runtime in the Raspberry Pi
+https://blogs.msdn.microsoft.com/david/2017/07/20/setting_up_raspian_and_dotnet_core_2_0_on_a_raspberry_pi/
 
 ### 2-INSTALL NETWORK MANAGER
 sudo apt-get install network-manager

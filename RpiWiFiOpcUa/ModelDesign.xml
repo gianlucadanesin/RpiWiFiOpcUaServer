@@ -27,17 +27,32 @@
       <opc:Variable SymbolicName="WiFi3_SSID" DataType="ua:String" AccessLevel="Read" />
       <opc:Variable SymbolicName="WiFi4_SSID" DataType="ua:String" AccessLevel="Read" />
       <opc:Variable SymbolicName="WiFi5_SSID" DataType="ua:String" AccessLevel="Read" />
+      <opc:Variable SymbolicName="WiFi6_SSID" DataType="ua:String" AccessLevel="Read" />
+      <opc:Variable SymbolicName="WiFi7_SSID" DataType="ua:String" AccessLevel="Read" />
+      <opc:Variable SymbolicName="WiFi8_SSID" DataType="ua:String" AccessLevel="Read" />
+      <opc:Variable SymbolicName="WiFi9_SSID" DataType="ua:String" AccessLevel="Read" />
+      <opc:Variable SymbolicName="WiFi10_SSID" DataType="ua:String" AccessLevel="Read" />
       <opc:Variable SymbolicName="SelWiFiPasskey" DataType="ua:String" AccessLevel="ReadWrite" />
       <opc:Variable SymbolicName="WiFi1_Connected" DataType="ua:Boolean" AccessLevel="Read" />
       <opc:Variable SymbolicName="WiFi2_Connected" DataType="ua:Boolean" AccessLevel="Read" />
       <opc:Variable SymbolicName="WiFi3_Connected" DataType="ua:Boolean" AccessLevel="Read" />
       <opc:Variable SymbolicName="WiFi4_Connected" DataType="ua:Boolean" AccessLevel="Read" />
       <opc:Variable SymbolicName="WiFi5_Connected" DataType="ua:Boolean" AccessLevel="Read" />
+      <opc:Variable SymbolicName="WiFi6_Connected" DataType="ua:Boolean" AccessLevel="Read" />
+      <opc:Variable SymbolicName="WiFi7_Connected" DataType="ua:Boolean" AccessLevel="Read" />
+      <opc:Variable SymbolicName="WiFi8_Connected" DataType="ua:Boolean" AccessLevel="Read" />
+      <opc:Variable SymbolicName="WiFi9_Connected" DataType="ua:Boolean" AccessLevel="Read" />
+      <opc:Variable SymbolicName="WiFi10_Connected" DataType="ua:Boolean" AccessLevel="Read" />
       <opc:Variable SymbolicName="WiFi1_ConnectCmd" DataType="ua:Boolean" AccessLevel="Write" />
       <opc:Variable SymbolicName="WiFi2_ConnectCmd" DataType="ua:Boolean" AccessLevel="Write" />
       <opc:Variable SymbolicName="WiFi3_ConnectCmd" DataType="ua:Boolean" AccessLevel="Write" />
       <opc:Variable SymbolicName="WiFi4_ConnectCmd" DataType="ua:Boolean" AccessLevel="Write" />
       <opc:Variable SymbolicName="WiFi5_ConnectCmd" DataType="ua:Boolean" AccessLevel="Write" />
+      <opc:Variable SymbolicName="WiFi6_ConnectCmd" DataType="ua:Boolean" AccessLevel="Write" />
+      <opc:Variable SymbolicName="WiFi7_ConnectCmd" DataType="ua:Boolean" AccessLevel="Write" />
+      <opc:Variable SymbolicName="WiFi8_ConnectCmd" DataType="ua:Boolean" AccessLevel="Write" />
+      <opc:Variable SymbolicName="WiFi9_ConnectCmd" DataType="ua:Boolean" AccessLevel="Write" />
+      <opc:Variable SymbolicName="WiFi10_ConnectCmd" DataType="ua:Boolean" AccessLevel="Write" />
       <opc:Variable SymbolicName="WiFi_DisconnectCmd" DataType="ua:Boolean" AccessLevel="Write"/>
     </opc:Children>
   </opc:ObjectType>
@@ -57,17 +72,32 @@
           <opc:Variable SymbolicName="WiFi3_SSID" />
           <opc:Variable SymbolicName="WiFi4_SSID" />
           <opc:Variable SymbolicName="WiFi5_SSID" />
+          <opc:Variable SymbolicName="WiFi6_SSID" />
+          <opc:Variable SymbolicName="WiFi7_SSID" />
+          <opc:Variable SymbolicName="WiFi8_SSID" />
+          <opc:Variable SymbolicName="WiFi9_SSID" />
+          <opc:Variable SymbolicName="WiFi10_SSID" />
           <opc:Variable SymbolicName="SelWiFiPasskey" />
           <opc:Variable SymbolicName="WiFi1_Connected" />
           <opc:Variable SymbolicName="WiFi2_Connected" />
           <opc:Variable SymbolicName="WiFi3_Connected" />
           <opc:Variable SymbolicName="WiFi4_Connected" />
           <opc:Variable SymbolicName="WiFi5_Connected" />
+          <opc:Variable SymbolicName="WiFi6_Connected" />
+          <opc:Variable SymbolicName="WiFi7_Connected" />
+          <opc:Variable SymbolicName="WiFi8_Connected" />
+          <opc:Variable SymbolicName="WiFi9_Connected" />
+          <opc:Variable SymbolicName="WiFi10_Connected" />
           <opc:Variable SymbolicName="WiFi1_ConnectCmd" />
           <opc:Variable SymbolicName="WiFi2_ConnectCmd" />
           <opc:Variable SymbolicName="WiFi3_ConnectCmd" />
           <opc:Variable SymbolicName="WiFi4_ConnectCmd" />
           <opc:Variable SymbolicName="WiFi5_ConnectCmd" />
+          <opc:Variable SymbolicName="WiFi6_ConnectCmd" />
+          <opc:Variable SymbolicName="WiFi7_ConnectCmd" />
+          <opc:Variable SymbolicName="WiFi8_ConnectCmd" />
+          <opc:Variable SymbolicName="WiFi9_ConnectCmd" />
+          <opc:Variable SymbolicName="WiFi10_ConnectCmd" />
           <opc:Variable SymbolicName="WiFi_DisconnectCmd" />
         </opc:Children>
       </opc:Object>

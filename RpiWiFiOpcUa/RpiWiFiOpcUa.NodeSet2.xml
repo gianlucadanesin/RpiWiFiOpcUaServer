@@ -54,17 +54,32 @@
       <Reference ReferenceType="HasComponent">ns=1;i=15019</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15020</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15021</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15001</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15002</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15003</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15004</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15005</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15022</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15023</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15024</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15025</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15026</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15027</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15006</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15007</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15008</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15009</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15010</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15028</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15029</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15030</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15031</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15032</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15011</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15012</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15013</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15014</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15015</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15115</Reference>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=58</Reference>
     </References>
@@ -103,6 +118,46 @@
   </UAVariable>
   <UAVariable NodeId="ns=1;i=15021" BrowseName="1:WiFi5_SSID" ParentNodeId="ns=1;i=15016" DataType="String">
     <DisplayName>WiFi5_SSID</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15016</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15001" BrowseName="1:WiFi6_SSID" ParentNodeId="ns=1;i=15016" DataType="String">
+    <DisplayName>WiFi6_SSID</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15016</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15002" BrowseName="1:WiFi7_SSID" ParentNodeId="ns=1;i=15016" DataType="String">
+    <DisplayName>WiFi7_SSID</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15016</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15003" BrowseName="1:WiFi8_SSID" ParentNodeId="ns=1;i=15016" DataType="String">
+    <DisplayName>WiFi8_SSID</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15016</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15004" BrowseName="1:WiFi9_SSID" ParentNodeId="ns=1;i=15016" DataType="String">
+    <DisplayName>WiFi9_SSID</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15016</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15005" BrowseName="1:WiFi10_SSID" ParentNodeId="ns=1;i=15016" DataType="String">
+    <DisplayName>WiFi10_SSID</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
       <Reference ReferenceType="HasModellingRule">i=78</Reference>
@@ -157,6 +212,46 @@
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15016</Reference>
     </References>
   </UAVariable>
+  <UAVariable NodeId="ns=1;i=15006" BrowseName="1:WiFi6_Connected" ParentNodeId="ns=1;i=15016" DataType="Boolean">
+    <DisplayName>WiFi6_Connected</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15016</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15007" BrowseName="1:WiFi7_Connected" ParentNodeId="ns=1;i=15016" DataType="Boolean">
+    <DisplayName>WiFi7_Connected</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15016</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15008" BrowseName="1:WiFi8_Connected" ParentNodeId="ns=1;i=15016" DataType="Boolean">
+    <DisplayName>WiFi8_Connected</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15016</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15009" BrowseName="1:WiFi9_Connected" ParentNodeId="ns=1;i=15016" DataType="Boolean">
+    <DisplayName>WiFi9_Connected</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15016</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15010" BrowseName="1:WiFi10_Connected" ParentNodeId="ns=1;i=15016" DataType="Boolean">
+    <DisplayName>WiFi10_Connected</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15016</Reference>
+    </References>
+  </UAVariable>
   <UAVariable NodeId="ns=1;i=15028" BrowseName="1:WiFi1_ConnectCmd" ParentNodeId="ns=1;i=15016" DataType="Boolean" AccessLevel="2">
     <DisplayName>WiFi1_ConnectCmd</DisplayName>
     <References>
@@ -197,6 +292,46 @@
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15016</Reference>
     </References>
   </UAVariable>
+  <UAVariable NodeId="ns=1;i=15011" BrowseName="1:WiFi6_ConnectCmd" ParentNodeId="ns=1;i=15016" DataType="Boolean" AccessLevel="2">
+    <DisplayName>WiFi6_ConnectCmd</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15016</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15012" BrowseName="1:WiFi7_ConnectCmd" ParentNodeId="ns=1;i=15016" DataType="Boolean" AccessLevel="2">
+    <DisplayName>WiFi7_ConnectCmd</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15016</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15013" BrowseName="1:WiFi8_ConnectCmd" ParentNodeId="ns=1;i=15016" DataType="Boolean" AccessLevel="2">
+    <DisplayName>WiFi8_ConnectCmd</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15016</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15014" BrowseName="1:WiFi9_ConnectCmd" ParentNodeId="ns=1;i=15016" DataType="Boolean" AccessLevel="2">
+    <DisplayName>WiFi9_ConnectCmd</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15016</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15015" BrowseName="1:WiFi10_ConnectCmd" ParentNodeId="ns=1;i=15016" DataType="Boolean" AccessLevel="2">
+    <DisplayName>WiFi10_ConnectCmd</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15016</Reference>
+    </References>
+  </UAVariable>
   <UAVariable NodeId="ns=1;i=15115" BrowseName="1:WiFi_DisconnectCmd" ParentNodeId="ns=1;i=15016" DataType="Boolean" AccessLevel="2">
     <DisplayName>WiFi_DisconnectCmd</DisplayName>
     <References>
@@ -227,17 +362,32 @@
       <Reference ReferenceType="HasComponent">ns=1;i=15037</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15038</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15039</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15051</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15052</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15053</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15054</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15055</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15040</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15041</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15042</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15043</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15044</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15045</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15056</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15057</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15058</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15059</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15060</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15046</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15047</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15048</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15049</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15050</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15061</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15062</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15063</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15064</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15065</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15116</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=1;i=15016</Reference>
       <Reference ReferenceType="HasModellingRule">i=78</Reference>
@@ -278,6 +428,46 @@
   </UAVariable>
   <UAVariable NodeId="ns=1;i=15039" BrowseName="1:WiFi5_SSID" ParentNodeId="ns=1;i=15034" DataType="String">
     <DisplayName>WiFi5_SSID</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15034</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15051" BrowseName="1:WiFi6_SSID" ParentNodeId="ns=1;i=15034" DataType="String">
+    <DisplayName>WiFi6_SSID</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15034</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15052" BrowseName="1:WiFi7_SSID" ParentNodeId="ns=1;i=15034" DataType="String">
+    <DisplayName>WiFi7_SSID</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15034</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15053" BrowseName="1:WiFi8_SSID" ParentNodeId="ns=1;i=15034" DataType="String">
+    <DisplayName>WiFi8_SSID</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15034</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15054" BrowseName="1:WiFi9_SSID" ParentNodeId="ns=1;i=15034" DataType="String">
+    <DisplayName>WiFi9_SSID</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15034</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15055" BrowseName="1:WiFi10_SSID" ParentNodeId="ns=1;i=15034" DataType="String">
+    <DisplayName>WiFi10_SSID</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
       <Reference ReferenceType="HasModellingRule">i=78</Reference>
@@ -332,6 +522,46 @@
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15034</Reference>
     </References>
   </UAVariable>
+  <UAVariable NodeId="ns=1;i=15056" BrowseName="1:WiFi6_Connected" ParentNodeId="ns=1;i=15034" DataType="Boolean">
+    <DisplayName>WiFi6_Connected</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15034</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15057" BrowseName="1:WiFi7_Connected" ParentNodeId="ns=1;i=15034" DataType="Boolean">
+    <DisplayName>WiFi7_Connected</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15034</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15058" BrowseName="1:WiFi8_Connected" ParentNodeId="ns=1;i=15034" DataType="Boolean">
+    <DisplayName>WiFi8_Connected</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15034</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15059" BrowseName="1:WiFi9_Connected" ParentNodeId="ns=1;i=15034" DataType="Boolean">
+    <DisplayName>WiFi9_Connected</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15034</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15060" BrowseName="1:WiFi10_Connected" ParentNodeId="ns=1;i=15034" DataType="Boolean">
+    <DisplayName>WiFi10_Connected</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15034</Reference>
+    </References>
+  </UAVariable>
   <UAVariable NodeId="ns=1;i=15046" BrowseName="1:WiFi1_ConnectCmd" ParentNodeId="ns=1;i=15034" DataType="Boolean" AccessLevel="2">
     <DisplayName>WiFi1_ConnectCmd</DisplayName>
     <References>
@@ -372,6 +602,46 @@
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15034</Reference>
     </References>
   </UAVariable>
+  <UAVariable NodeId="ns=1;i=15061" BrowseName="1:WiFi6_ConnectCmd" ParentNodeId="ns=1;i=15034" DataType="Boolean" AccessLevel="2">
+    <DisplayName>WiFi6_ConnectCmd</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15034</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15062" BrowseName="1:WiFi7_ConnectCmd" ParentNodeId="ns=1;i=15034" DataType="Boolean" AccessLevel="2">
+    <DisplayName>WiFi7_ConnectCmd</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15034</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15063" BrowseName="1:WiFi8_ConnectCmd" ParentNodeId="ns=1;i=15034" DataType="Boolean" AccessLevel="2">
+    <DisplayName>WiFi8_ConnectCmd</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15034</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15064" BrowseName="1:WiFi9_ConnectCmd" ParentNodeId="ns=1;i=15034" DataType="Boolean" AccessLevel="2">
+    <DisplayName>WiFi9_ConnectCmd</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15034</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15065" BrowseName="1:WiFi10_ConnectCmd" ParentNodeId="ns=1;i=15034" DataType="Boolean" AccessLevel="2">
+    <DisplayName>WiFi10_ConnectCmd</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15034</Reference>
+    </References>
+  </UAVariable>
   <UAVariable NodeId="ns=1;i=15116" BrowseName="1:WiFi_DisconnectCmd" ParentNodeId="ns=1;i=15034" DataType="Boolean" AccessLevel="2">
     <DisplayName>WiFi_DisconnectCmd</DisplayName>
     <References>
@@ -396,17 +666,32 @@
       <Reference ReferenceType="HasComponent">ns=1;i=15101</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15102</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15103</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15066</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15067</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15068</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15070</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15071</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15104</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15105</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15106</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15107</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15108</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15109</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15072</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15073</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15074</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15075</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15076</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15110</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15111</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15112</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15113</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15114</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15077</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15078</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15079</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15080</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15081</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15117</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=1;i=15016</Reference>
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15097</Reference>
@@ -442,6 +727,41 @@
   </UAVariable>
   <UAVariable NodeId="ns=1;i=15103" BrowseName="1:WiFi5_SSID" ParentNodeId="ns=1;i=15098" DataType="String">
     <DisplayName>WiFi5_SSID</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15098</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15066" BrowseName="1:WiFi6_SSID" ParentNodeId="ns=1;i=15098" DataType="String">
+    <DisplayName>WiFi6_SSID</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15098</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15067" BrowseName="1:WiFi7_SSID" ParentNodeId="ns=1;i=15098" DataType="String">
+    <DisplayName>WiFi7_SSID</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15098</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15068" BrowseName="1:WiFi8_SSID" ParentNodeId="ns=1;i=15098" DataType="String">
+    <DisplayName>WiFi8_SSID</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15098</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15070" BrowseName="1:WiFi9_SSID" ParentNodeId="ns=1;i=15098" DataType="String">
+    <DisplayName>WiFi9_SSID</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15098</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15071" BrowseName="1:WiFi10_SSID" ParentNodeId="ns=1;i=15098" DataType="String">
+    <DisplayName>WiFi10_SSID</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15098</Reference>
@@ -489,6 +809,41 @@
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15098</Reference>
     </References>
   </UAVariable>
+  <UAVariable NodeId="ns=1;i=15072" BrowseName="1:WiFi6_Connected" ParentNodeId="ns=1;i=15098" DataType="Boolean">
+    <DisplayName>WiFi6_Connected</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15098</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15073" BrowseName="1:WiFi7_Connected" ParentNodeId="ns=1;i=15098" DataType="Boolean">
+    <DisplayName>WiFi7_Connected</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15098</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15074" BrowseName="1:WiFi8_Connected" ParentNodeId="ns=1;i=15098" DataType="Boolean">
+    <DisplayName>WiFi8_Connected</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15098</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15075" BrowseName="1:WiFi9_Connected" ParentNodeId="ns=1;i=15098" DataType="Boolean">
+    <DisplayName>WiFi9_Connected</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15098</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15076" BrowseName="1:WiFi10_Connected" ParentNodeId="ns=1;i=15098" DataType="Boolean">
+    <DisplayName>WiFi10_Connected</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15098</Reference>
+    </References>
+  </UAVariable>
   <UAVariable NodeId="ns=1;i=15110" BrowseName="1:WiFi1_ConnectCmd" ParentNodeId="ns=1;i=15098" DataType="Boolean" AccessLevel="2">
     <DisplayName>WiFi1_ConnectCmd</DisplayName>
     <References>
@@ -519,6 +874,41 @@
   </UAVariable>
   <UAVariable NodeId="ns=1;i=15114" BrowseName="1:WiFi5_ConnectCmd" ParentNodeId="ns=1;i=15098" DataType="Boolean" AccessLevel="2">
     <DisplayName>WiFi5_ConnectCmd</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15098</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15077" BrowseName="1:WiFi6_ConnectCmd" ParentNodeId="ns=1;i=15098" DataType="Boolean" AccessLevel="2">
+    <DisplayName>WiFi6_ConnectCmd</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15098</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15078" BrowseName="1:WiFi7_ConnectCmd" ParentNodeId="ns=1;i=15098" DataType="Boolean" AccessLevel="2">
+    <DisplayName>WiFi7_ConnectCmd</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15098</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15079" BrowseName="1:WiFi8_ConnectCmd" ParentNodeId="ns=1;i=15098" DataType="Boolean" AccessLevel="2">
+    <DisplayName>WiFi8_ConnectCmd</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15098</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15080" BrowseName="1:WiFi9_ConnectCmd" ParentNodeId="ns=1;i=15098" DataType="Boolean" AccessLevel="2">
+    <DisplayName>WiFi9_ConnectCmd</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15098</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15081" BrowseName="1:WiFi10_ConnectCmd" ParentNodeId="ns=1;i=15098" DataType="Boolean" AccessLevel="2">
+    <DisplayName>WiFi10_ConnectCmd</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15098</Reference>

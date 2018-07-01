@@ -1,0 +1,18 @@
+LAUNCH NET CORE APP:
+terminal on app folder
+chmod 755 ./netcoreapp
+./netcoreapp
+
+INSTALL NETWORK MANAGER
+sudo apt-get install network-manager
+
+SET STATIC IP FOR LAN and network-manager for Wifi
+modify /etc/network/interfaces
+
+auto lo
+iface lo inet loopback
+
+iface eth0 inet static
+        address 192.168.1.132
+        gateway 192.168.1.254
+        netmask 255.255.255.0

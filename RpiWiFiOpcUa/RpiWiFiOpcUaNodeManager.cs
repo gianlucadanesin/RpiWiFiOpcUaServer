@@ -262,15 +262,6 @@ namespace RpiWiFiOpcUa.Server
         {
             try
             {
-                //double value1 = m_boiler1.Drum.LevelIndicator.Output.Value;
-                //value1 = ((int)(++value1))%100;
-                //m_boiler1.Drum.LevelIndicator.Output.Value = value1;
-                //m_boiler1.ClearChangeMasks(SystemContext, true);
-
-                //double value2 = m_boiler2.Drum.LevelIndicator.Output.Value;
-                //value2 = ((int)(++value2))%20;
-                //m_boiler2.Drum.LevelIndicator.Output.Value = value2;
-                //m_boiler2.ClearChangeMasks(SystemContext, true);
 
                 if (DateTime.Now - LastScan > TimeSpan.FromSeconds(30))
                 {
@@ -293,6 +284,21 @@ namespace RpiWiFiOpcUa.Server
                     if (WIFIs.Count >= 5) m_Rpi.WiFi.WiFi5_SSID.Value = WIFIs[4].SSID;
                     else m_Rpi.WiFi.WiFi5_SSID.Value = string.Empty;
 
+                    if (WIFIs.Count >= 6) m_Rpi.WiFi.WiFi6_SSID.Value = WIFIs[5].SSID;
+                    else m_Rpi.WiFi.WiFi6_SSID.Value = string.Empty;
+
+                    if (WIFIs.Count >= 7) m_Rpi.WiFi.WiFi7_SSID.Value = WIFIs[6].SSID;
+                    else m_Rpi.WiFi.WiFi7_SSID.Value = string.Empty;
+
+                    if (WIFIs.Count >= 8) m_Rpi.WiFi.WiFi8_SSID.Value = WIFIs[7].SSID;
+                    else m_Rpi.WiFi.WiFi8_SSID.Value = string.Empty;
+
+                    if (WIFIs.Count >= 9) m_Rpi.WiFi.WiFi9_SSID.Value = WIFIs[8].SSID;
+                    else m_Rpi.WiFi.WiFi9_SSID.Value = string.Empty;
+
+                    if (WIFIs.Count >= 10) m_Rpi.WiFi.WiFi10_SSID.Value = WIFIs[9].SSID;
+                    else m_Rpi.WiFi.WiFi10_SSID.Value = string.Empty;
+
                 }
 
                 //Get connected status
@@ -302,6 +308,11 @@ namespace RpiWiFiOpcUa.Server
                 m_Rpi.WiFi.WiFi3_Connected.Value = ConnectedSSID != string.Empty && m_Rpi.WiFi.WiFi3_SSID.Value.ToLower() == ConnectedSSID.ToLower();
                 m_Rpi.WiFi.WiFi4_Connected.Value = ConnectedSSID != string.Empty && m_Rpi.WiFi.WiFi4_SSID.Value.ToLower() == ConnectedSSID.ToLower();
                 m_Rpi.WiFi.WiFi5_Connected.Value = ConnectedSSID != string.Empty && m_Rpi.WiFi.WiFi5_SSID.Value.ToLower() == ConnectedSSID.ToLower();
+                m_Rpi.WiFi.WiFi6_Connected.Value = ConnectedSSID != string.Empty && m_Rpi.WiFi.WiFi6_SSID.Value.ToLower() == ConnectedSSID.ToLower();
+                m_Rpi.WiFi.WiFi7_Connected.Value = ConnectedSSID != string.Empty && m_Rpi.WiFi.WiFi7_SSID.Value.ToLower() == ConnectedSSID.ToLower();
+                m_Rpi.WiFi.WiFi8_Connected.Value = ConnectedSSID != string.Empty && m_Rpi.WiFi.WiFi8_SSID.Value.ToLower() == ConnectedSSID.ToLower();
+                m_Rpi.WiFi.WiFi9_Connected.Value = ConnectedSSID != string.Empty && m_Rpi.WiFi.WiFi9_SSID.Value.ToLower() == ConnectedSSID.ToLower();
+                m_Rpi.WiFi.WiFi10_Connected.Value = ConnectedSSID != string.Empty && m_Rpi.WiFi.WiFi10_SSID.Value.ToLower() == ConnectedSSID.ToLower();
                 if (ConnectedSSID != LastConnectedSSID)
                 {
                     if (ConnectedSSID != string.Empty) Console.Write($"Connected to SSID \"{ConnectedSSID}\"");
@@ -348,6 +359,41 @@ namespace RpiWiFiOpcUa.Server
                 {
                     ConnectWiFi(m_Rpi.WiFi.WiFi5_SSID.Value, m_Rpi.WiFi.SelWiFiPasskey.Value);
                     m_Rpi.WiFi.WiFi5_ConnectCmd.Value = false;
+                    m_Rpi.WiFi.SelWiFiPasskey.Value = string.Empty;
+                    DoRefresh(null);
+                }
+                if (m_Rpi.WiFi.WiFi6_ConnectCmd.Value)
+                {
+                    ConnectWiFi(m_Rpi.WiFi.WiFi6_SSID.Value, m_Rpi.WiFi.SelWiFiPasskey.Value);
+                    m_Rpi.WiFi.WiFi6_ConnectCmd.Value = false;
+                    m_Rpi.WiFi.SelWiFiPasskey.Value = string.Empty;
+                    DoRefresh(null);
+                }
+                if (m_Rpi.WiFi.WiFi7_ConnectCmd.Value)
+                {
+                    ConnectWiFi(m_Rpi.WiFi.WiFi7_SSID.Value, m_Rpi.WiFi.SelWiFiPasskey.Value);
+                    m_Rpi.WiFi.WiFi7_ConnectCmd.Value = false;
+                    m_Rpi.WiFi.SelWiFiPasskey.Value = string.Empty;
+                    DoRefresh(null);
+                }
+                if (m_Rpi.WiFi.WiFi8_ConnectCmd.Value)
+                {
+                    ConnectWiFi(m_Rpi.WiFi.WiFi8_SSID.Value, m_Rpi.WiFi.SelWiFiPasskey.Value);
+                    m_Rpi.WiFi.WiFi8_ConnectCmd.Value = false;
+                    m_Rpi.WiFi.SelWiFiPasskey.Value = string.Empty;
+                    DoRefresh(null);
+                }
+                if (m_Rpi.WiFi.WiFi9_ConnectCmd.Value)
+                {
+                    ConnectWiFi(m_Rpi.WiFi.WiFi9_SSID.Value, m_Rpi.WiFi.SelWiFiPasskey.Value);
+                    m_Rpi.WiFi.WiFi9_ConnectCmd.Value = false;
+                    m_Rpi.WiFi.SelWiFiPasskey.Value = string.Empty;
+                    DoRefresh(null);
+                }
+                if (m_Rpi.WiFi.WiFi10_ConnectCmd.Value)
+                {
+                    ConnectWiFi(m_Rpi.WiFi.WiFi10_SSID.Value, m_Rpi.WiFi.SelWiFiPasskey.Value);
+                    m_Rpi.WiFi.WiFi10_ConnectCmd.Value = false;
                     m_Rpi.WiFi.SelWiFiPasskey.Value = string.Empty;
                     DoRefresh(null);
                 }

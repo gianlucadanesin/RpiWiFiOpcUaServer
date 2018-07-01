@@ -121,6 +121,31 @@ namespace RpiWiFiOpcUa
         public const uint RpiWiFiInterface_WiFi5_SSID = 15021;
 
         /// <summary>
+        /// The identifier for the RpiWiFiInterface_WiFi6_SSID Variable.
+        /// </summary>
+        public const uint RpiWiFiInterface_WiFi6_SSID = 15001;
+
+        /// <summary>
+        /// The identifier for the RpiWiFiInterface_WiFi7_SSID Variable.
+        /// </summary>
+        public const uint RpiWiFiInterface_WiFi7_SSID = 15002;
+
+        /// <summary>
+        /// The identifier for the RpiWiFiInterface_WiFi8_SSID Variable.
+        /// </summary>
+        public const uint RpiWiFiInterface_WiFi8_SSID = 15003;
+
+        /// <summary>
+        /// The identifier for the RpiWiFiInterface_WiFi9_SSID Variable.
+        /// </summary>
+        public const uint RpiWiFiInterface_WiFi9_SSID = 15004;
+
+        /// <summary>
+        /// The identifier for the RpiWiFiInterface_WiFi10_SSID Variable.
+        /// </summary>
+        public const uint RpiWiFiInterface_WiFi10_SSID = 15005;
+
+        /// <summary>
         /// The identifier for the RpiWiFiInterface_SelWiFiPasskey Variable.
         /// </summary>
         public const uint RpiWiFiInterface_SelWiFiPasskey = 15022;
@@ -151,6 +176,31 @@ namespace RpiWiFiOpcUa
         public const uint RpiWiFiInterface_WiFi5_Connected = 15027;
 
         /// <summary>
+        /// The identifier for the RpiWiFiInterface_WiFi6_Connected Variable.
+        /// </summary>
+        public const uint RpiWiFiInterface_WiFi6_Connected = 15006;
+
+        /// <summary>
+        /// The identifier for the RpiWiFiInterface_WiFi7_Connected Variable.
+        /// </summary>
+        public const uint RpiWiFiInterface_WiFi7_Connected = 15007;
+
+        /// <summary>
+        /// The identifier for the RpiWiFiInterface_WiFi8_Connected Variable.
+        /// </summary>
+        public const uint RpiWiFiInterface_WiFi8_Connected = 15008;
+
+        /// <summary>
+        /// The identifier for the RpiWiFiInterface_WiFi9_Connected Variable.
+        /// </summary>
+        public const uint RpiWiFiInterface_WiFi9_Connected = 15009;
+
+        /// <summary>
+        /// The identifier for the RpiWiFiInterface_WiFi10_Connected Variable.
+        /// </summary>
+        public const uint RpiWiFiInterface_WiFi10_Connected = 15010;
+
+        /// <summary>
         /// The identifier for the RpiWiFiInterface_WiFi1_ConnectCmd Variable.
         /// </summary>
         public const uint RpiWiFiInterface_WiFi1_ConnectCmd = 15028;
@@ -174,6 +224,31 @@ namespace RpiWiFiOpcUa
         /// The identifier for the RpiWiFiInterface_WiFi5_ConnectCmd Variable.
         /// </summary>
         public const uint RpiWiFiInterface_WiFi5_ConnectCmd = 15032;
+
+        /// <summary>
+        /// The identifier for the RpiWiFiInterface_WiFi6_ConnectCmd Variable.
+        /// </summary>
+        public const uint RpiWiFiInterface_WiFi6_ConnectCmd = 15011;
+
+        /// <summary>
+        /// The identifier for the RpiWiFiInterface_WiFi7_ConnectCmd Variable.
+        /// </summary>
+        public const uint RpiWiFiInterface_WiFi7_ConnectCmd = 15012;
+
+        /// <summary>
+        /// The identifier for the RpiWiFiInterface_WiFi8_ConnectCmd Variable.
+        /// </summary>
+        public const uint RpiWiFiInterface_WiFi8_ConnectCmd = 15013;
+
+        /// <summary>
+        /// The identifier for the RpiWiFiInterface_WiFi9_ConnectCmd Variable.
+        /// </summary>
+        public const uint RpiWiFiInterface_WiFi9_ConnectCmd = 15014;
+
+        /// <summary>
+        /// The identifier for the RpiWiFiInterface_WiFi10_ConnectCmd Variable.
+        /// </summary>
+        public const uint RpiWiFiInterface_WiFi10_ConnectCmd = 15015;
 
         /// <summary>
         /// The identifier for the RpiWiFiInterface_WiFi_DisconnectCmd Variable.
@@ -206,6 +281,31 @@ namespace RpiWiFiOpcUa
         public const uint RpiType_WiFi_WiFi5_SSID = 15039;
 
         /// <summary>
+        /// The identifier for the RpiType_WiFi_WiFi6_SSID Variable.
+        /// </summary>
+        public const uint RpiType_WiFi_WiFi6_SSID = 15051;
+
+        /// <summary>
+        /// The identifier for the RpiType_WiFi_WiFi7_SSID Variable.
+        /// </summary>
+        public const uint RpiType_WiFi_WiFi7_SSID = 15052;
+
+        /// <summary>
+        /// The identifier for the RpiType_WiFi_WiFi8_SSID Variable.
+        /// </summary>
+        public const uint RpiType_WiFi_WiFi8_SSID = 15053;
+
+        /// <summary>
+        /// The identifier for the RpiType_WiFi_WiFi9_SSID Variable.
+        /// </summary>
+        public const uint RpiType_WiFi_WiFi9_SSID = 15054;
+
+        /// <summary>
+        /// The identifier for the RpiType_WiFi_WiFi10_SSID Variable.
+        /// </summary>
+        public const uint RpiType_WiFi_WiFi10_SSID = 15055;
+
+        /// <summary>
         /// The identifier for the RpiType_WiFi_SelWiFiPasskey Variable.
         /// </summary>
         public const uint RpiType_WiFi_SelWiFiPasskey = 15040;
@@ -236,6 +336,31 @@ namespace RpiWiFiOpcUa
         public const uint RpiType_WiFi_WiFi5_Connected = 15045;
 
         /// <summary>
+        /// The identifier for the RpiType_WiFi_WiFi6_Connected Variable.
+        /// </summary>
+        public const uint RpiType_WiFi_WiFi6_Connected = 15056;
+
+        /// <summary>
+        /// The identifier for the RpiType_WiFi_WiFi7_Connected Variable.
+        /// </summary>
+        public const uint RpiType_WiFi_WiFi7_Connected = 15057;
+
+        /// <summary>
+        /// The identifier for the RpiType_WiFi_WiFi8_Connected Variable.
+        /// </summary>
+        public const uint RpiType_WiFi_WiFi8_Connected = 15058;
+
+        /// <summary>
+        /// The identifier for the RpiType_WiFi_WiFi9_Connected Variable.
+        /// </summary>
+        public const uint RpiType_WiFi_WiFi9_Connected = 15059;
+
+        /// <summary>
+        /// The identifier for the RpiType_WiFi_WiFi10_Connected Variable.
+        /// </summary>
+        public const uint RpiType_WiFi_WiFi10_Connected = 15060;
+
+        /// <summary>
         /// The identifier for the RpiType_WiFi_WiFi1_ConnectCmd Variable.
         /// </summary>
         public const uint RpiType_WiFi_WiFi1_ConnectCmd = 15046;
@@ -259,6 +384,31 @@ namespace RpiWiFiOpcUa
         /// The identifier for the RpiType_WiFi_WiFi5_ConnectCmd Variable.
         /// </summary>
         public const uint RpiType_WiFi_WiFi5_ConnectCmd = 15050;
+
+        /// <summary>
+        /// The identifier for the RpiType_WiFi_WiFi6_ConnectCmd Variable.
+        /// </summary>
+        public const uint RpiType_WiFi_WiFi6_ConnectCmd = 15061;
+
+        /// <summary>
+        /// The identifier for the RpiType_WiFi_WiFi7_ConnectCmd Variable.
+        /// </summary>
+        public const uint RpiType_WiFi_WiFi7_ConnectCmd = 15062;
+
+        /// <summary>
+        /// The identifier for the RpiType_WiFi_WiFi8_ConnectCmd Variable.
+        /// </summary>
+        public const uint RpiType_WiFi_WiFi8_ConnectCmd = 15063;
+
+        /// <summary>
+        /// The identifier for the RpiType_WiFi_WiFi9_ConnectCmd Variable.
+        /// </summary>
+        public const uint RpiType_WiFi_WiFi9_ConnectCmd = 15064;
+
+        /// <summary>
+        /// The identifier for the RpiType_WiFi_WiFi10_ConnectCmd Variable.
+        /// </summary>
+        public const uint RpiType_WiFi_WiFi10_ConnectCmd = 15065;
 
         /// <summary>
         /// The identifier for the RpiType_WiFi_WiFi_DisconnectCmd Variable.
@@ -291,6 +441,31 @@ namespace RpiWiFiOpcUa
         public const uint Rpi_WiFi_WiFi5_SSID = 15103;
 
         /// <summary>
+        /// The identifier for the Rpi_WiFi_WiFi6_SSID Variable.
+        /// </summary>
+        public const uint Rpi_WiFi_WiFi6_SSID = 15066;
+
+        /// <summary>
+        /// The identifier for the Rpi_WiFi_WiFi7_SSID Variable.
+        /// </summary>
+        public const uint Rpi_WiFi_WiFi7_SSID = 15067;
+
+        /// <summary>
+        /// The identifier for the Rpi_WiFi_WiFi8_SSID Variable.
+        /// </summary>
+        public const uint Rpi_WiFi_WiFi8_SSID = 15068;
+
+        /// <summary>
+        /// The identifier for the Rpi_WiFi_WiFi9_SSID Variable.
+        /// </summary>
+        public const uint Rpi_WiFi_WiFi9_SSID = 15070;
+
+        /// <summary>
+        /// The identifier for the Rpi_WiFi_WiFi10_SSID Variable.
+        /// </summary>
+        public const uint Rpi_WiFi_WiFi10_SSID = 15071;
+
+        /// <summary>
         /// The identifier for the Rpi_WiFi_SelWiFiPasskey Variable.
         /// </summary>
         public const uint Rpi_WiFi_SelWiFiPasskey = 15104;
@@ -321,6 +496,31 @@ namespace RpiWiFiOpcUa
         public const uint Rpi_WiFi_WiFi5_Connected = 15109;
 
         /// <summary>
+        /// The identifier for the Rpi_WiFi_WiFi6_Connected Variable.
+        /// </summary>
+        public const uint Rpi_WiFi_WiFi6_Connected = 15072;
+
+        /// <summary>
+        /// The identifier for the Rpi_WiFi_WiFi7_Connected Variable.
+        /// </summary>
+        public const uint Rpi_WiFi_WiFi7_Connected = 15073;
+
+        /// <summary>
+        /// The identifier for the Rpi_WiFi_WiFi8_Connected Variable.
+        /// </summary>
+        public const uint Rpi_WiFi_WiFi8_Connected = 15074;
+
+        /// <summary>
+        /// The identifier for the Rpi_WiFi_WiFi9_Connected Variable.
+        /// </summary>
+        public const uint Rpi_WiFi_WiFi9_Connected = 15075;
+
+        /// <summary>
+        /// The identifier for the Rpi_WiFi_WiFi10_Connected Variable.
+        /// </summary>
+        public const uint Rpi_WiFi_WiFi10_Connected = 15076;
+
+        /// <summary>
         /// The identifier for the Rpi_WiFi_WiFi1_ConnectCmd Variable.
         /// </summary>
         public const uint Rpi_WiFi_WiFi1_ConnectCmd = 15110;
@@ -344,6 +544,31 @@ namespace RpiWiFiOpcUa
         /// The identifier for the Rpi_WiFi_WiFi5_ConnectCmd Variable.
         /// </summary>
         public const uint Rpi_WiFi_WiFi5_ConnectCmd = 15114;
+
+        /// <summary>
+        /// The identifier for the Rpi_WiFi_WiFi6_ConnectCmd Variable.
+        /// </summary>
+        public const uint Rpi_WiFi_WiFi6_ConnectCmd = 15077;
+
+        /// <summary>
+        /// The identifier for the Rpi_WiFi_WiFi7_ConnectCmd Variable.
+        /// </summary>
+        public const uint Rpi_WiFi_WiFi7_ConnectCmd = 15078;
+
+        /// <summary>
+        /// The identifier for the Rpi_WiFi_WiFi8_ConnectCmd Variable.
+        /// </summary>
+        public const uint Rpi_WiFi_WiFi8_ConnectCmd = 15079;
+
+        /// <summary>
+        /// The identifier for the Rpi_WiFi_WiFi9_ConnectCmd Variable.
+        /// </summary>
+        public const uint Rpi_WiFi_WiFi9_ConnectCmd = 15080;
+
+        /// <summary>
+        /// The identifier for the Rpi_WiFi_WiFi10_ConnectCmd Variable.
+        /// </summary>
+        public const uint Rpi_WiFi_WiFi10_ConnectCmd = 15081;
 
         /// <summary>
         /// The identifier for the Rpi_WiFi_WiFi_DisconnectCmd Variable.
@@ -436,6 +661,31 @@ namespace RpiWiFiOpcUa
         public static readonly ExpandedNodeId RpiWiFiInterface_WiFi5_SSID = new ExpandedNodeId(RpiWiFiOpcUa.Variables.RpiWiFiInterface_WiFi5_SSID, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
 
         /// <summary>
+        /// The identifier for the RpiWiFiInterface_WiFi6_SSID Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId RpiWiFiInterface_WiFi6_SSID = new ExpandedNodeId(RpiWiFiOpcUa.Variables.RpiWiFiInterface_WiFi6_SSID, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
+        /// The identifier for the RpiWiFiInterface_WiFi7_SSID Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId RpiWiFiInterface_WiFi7_SSID = new ExpandedNodeId(RpiWiFiOpcUa.Variables.RpiWiFiInterface_WiFi7_SSID, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
+        /// The identifier for the RpiWiFiInterface_WiFi8_SSID Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId RpiWiFiInterface_WiFi8_SSID = new ExpandedNodeId(RpiWiFiOpcUa.Variables.RpiWiFiInterface_WiFi8_SSID, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
+        /// The identifier for the RpiWiFiInterface_WiFi9_SSID Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId RpiWiFiInterface_WiFi9_SSID = new ExpandedNodeId(RpiWiFiOpcUa.Variables.RpiWiFiInterface_WiFi9_SSID, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
+        /// The identifier for the RpiWiFiInterface_WiFi10_SSID Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId RpiWiFiInterface_WiFi10_SSID = new ExpandedNodeId(RpiWiFiOpcUa.Variables.RpiWiFiInterface_WiFi10_SSID, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
         /// The identifier for the RpiWiFiInterface_SelWiFiPasskey Variable.
         /// </summary>
         public static readonly ExpandedNodeId RpiWiFiInterface_SelWiFiPasskey = new ExpandedNodeId(RpiWiFiOpcUa.Variables.RpiWiFiInterface_SelWiFiPasskey, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
@@ -466,6 +716,31 @@ namespace RpiWiFiOpcUa
         public static readonly ExpandedNodeId RpiWiFiInterface_WiFi5_Connected = new ExpandedNodeId(RpiWiFiOpcUa.Variables.RpiWiFiInterface_WiFi5_Connected, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
 
         /// <summary>
+        /// The identifier for the RpiWiFiInterface_WiFi6_Connected Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId RpiWiFiInterface_WiFi6_Connected = new ExpandedNodeId(RpiWiFiOpcUa.Variables.RpiWiFiInterface_WiFi6_Connected, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
+        /// The identifier for the RpiWiFiInterface_WiFi7_Connected Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId RpiWiFiInterface_WiFi7_Connected = new ExpandedNodeId(RpiWiFiOpcUa.Variables.RpiWiFiInterface_WiFi7_Connected, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
+        /// The identifier for the RpiWiFiInterface_WiFi8_Connected Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId RpiWiFiInterface_WiFi8_Connected = new ExpandedNodeId(RpiWiFiOpcUa.Variables.RpiWiFiInterface_WiFi8_Connected, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
+        /// The identifier for the RpiWiFiInterface_WiFi9_Connected Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId RpiWiFiInterface_WiFi9_Connected = new ExpandedNodeId(RpiWiFiOpcUa.Variables.RpiWiFiInterface_WiFi9_Connected, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
+        /// The identifier for the RpiWiFiInterface_WiFi10_Connected Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId RpiWiFiInterface_WiFi10_Connected = new ExpandedNodeId(RpiWiFiOpcUa.Variables.RpiWiFiInterface_WiFi10_Connected, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
         /// The identifier for the RpiWiFiInterface_WiFi1_ConnectCmd Variable.
         /// </summary>
         public static readonly ExpandedNodeId RpiWiFiInterface_WiFi1_ConnectCmd = new ExpandedNodeId(RpiWiFiOpcUa.Variables.RpiWiFiInterface_WiFi1_ConnectCmd, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
@@ -489,6 +764,31 @@ namespace RpiWiFiOpcUa
         /// The identifier for the RpiWiFiInterface_WiFi5_ConnectCmd Variable.
         /// </summary>
         public static readonly ExpandedNodeId RpiWiFiInterface_WiFi5_ConnectCmd = new ExpandedNodeId(RpiWiFiOpcUa.Variables.RpiWiFiInterface_WiFi5_ConnectCmd, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
+        /// The identifier for the RpiWiFiInterface_WiFi6_ConnectCmd Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId RpiWiFiInterface_WiFi6_ConnectCmd = new ExpandedNodeId(RpiWiFiOpcUa.Variables.RpiWiFiInterface_WiFi6_ConnectCmd, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
+        /// The identifier for the RpiWiFiInterface_WiFi7_ConnectCmd Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId RpiWiFiInterface_WiFi7_ConnectCmd = new ExpandedNodeId(RpiWiFiOpcUa.Variables.RpiWiFiInterface_WiFi7_ConnectCmd, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
+        /// The identifier for the RpiWiFiInterface_WiFi8_ConnectCmd Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId RpiWiFiInterface_WiFi8_ConnectCmd = new ExpandedNodeId(RpiWiFiOpcUa.Variables.RpiWiFiInterface_WiFi8_ConnectCmd, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
+        /// The identifier for the RpiWiFiInterface_WiFi9_ConnectCmd Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId RpiWiFiInterface_WiFi9_ConnectCmd = new ExpandedNodeId(RpiWiFiOpcUa.Variables.RpiWiFiInterface_WiFi9_ConnectCmd, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
+        /// The identifier for the RpiWiFiInterface_WiFi10_ConnectCmd Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId RpiWiFiInterface_WiFi10_ConnectCmd = new ExpandedNodeId(RpiWiFiOpcUa.Variables.RpiWiFiInterface_WiFi10_ConnectCmd, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
 
         /// <summary>
         /// The identifier for the RpiWiFiInterface_WiFi_DisconnectCmd Variable.
@@ -521,6 +821,31 @@ namespace RpiWiFiOpcUa
         public static readonly ExpandedNodeId RpiType_WiFi_WiFi5_SSID = new ExpandedNodeId(RpiWiFiOpcUa.Variables.RpiType_WiFi_WiFi5_SSID, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
 
         /// <summary>
+        /// The identifier for the RpiType_WiFi_WiFi6_SSID Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId RpiType_WiFi_WiFi6_SSID = new ExpandedNodeId(RpiWiFiOpcUa.Variables.RpiType_WiFi_WiFi6_SSID, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
+        /// The identifier for the RpiType_WiFi_WiFi7_SSID Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId RpiType_WiFi_WiFi7_SSID = new ExpandedNodeId(RpiWiFiOpcUa.Variables.RpiType_WiFi_WiFi7_SSID, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
+        /// The identifier for the RpiType_WiFi_WiFi8_SSID Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId RpiType_WiFi_WiFi8_SSID = new ExpandedNodeId(RpiWiFiOpcUa.Variables.RpiType_WiFi_WiFi8_SSID, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
+        /// The identifier for the RpiType_WiFi_WiFi9_SSID Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId RpiType_WiFi_WiFi9_SSID = new ExpandedNodeId(RpiWiFiOpcUa.Variables.RpiType_WiFi_WiFi9_SSID, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
+        /// The identifier for the RpiType_WiFi_WiFi10_SSID Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId RpiType_WiFi_WiFi10_SSID = new ExpandedNodeId(RpiWiFiOpcUa.Variables.RpiType_WiFi_WiFi10_SSID, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
         /// The identifier for the RpiType_WiFi_SelWiFiPasskey Variable.
         /// </summary>
         public static readonly ExpandedNodeId RpiType_WiFi_SelWiFiPasskey = new ExpandedNodeId(RpiWiFiOpcUa.Variables.RpiType_WiFi_SelWiFiPasskey, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
@@ -551,6 +876,31 @@ namespace RpiWiFiOpcUa
         public static readonly ExpandedNodeId RpiType_WiFi_WiFi5_Connected = new ExpandedNodeId(RpiWiFiOpcUa.Variables.RpiType_WiFi_WiFi5_Connected, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
 
         /// <summary>
+        /// The identifier for the RpiType_WiFi_WiFi6_Connected Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId RpiType_WiFi_WiFi6_Connected = new ExpandedNodeId(RpiWiFiOpcUa.Variables.RpiType_WiFi_WiFi6_Connected, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
+        /// The identifier for the RpiType_WiFi_WiFi7_Connected Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId RpiType_WiFi_WiFi7_Connected = new ExpandedNodeId(RpiWiFiOpcUa.Variables.RpiType_WiFi_WiFi7_Connected, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
+        /// The identifier for the RpiType_WiFi_WiFi8_Connected Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId RpiType_WiFi_WiFi8_Connected = new ExpandedNodeId(RpiWiFiOpcUa.Variables.RpiType_WiFi_WiFi8_Connected, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
+        /// The identifier for the RpiType_WiFi_WiFi9_Connected Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId RpiType_WiFi_WiFi9_Connected = new ExpandedNodeId(RpiWiFiOpcUa.Variables.RpiType_WiFi_WiFi9_Connected, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
+        /// The identifier for the RpiType_WiFi_WiFi10_Connected Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId RpiType_WiFi_WiFi10_Connected = new ExpandedNodeId(RpiWiFiOpcUa.Variables.RpiType_WiFi_WiFi10_Connected, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
         /// The identifier for the RpiType_WiFi_WiFi1_ConnectCmd Variable.
         /// </summary>
         public static readonly ExpandedNodeId RpiType_WiFi_WiFi1_ConnectCmd = new ExpandedNodeId(RpiWiFiOpcUa.Variables.RpiType_WiFi_WiFi1_ConnectCmd, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
@@ -574,6 +924,31 @@ namespace RpiWiFiOpcUa
         /// The identifier for the RpiType_WiFi_WiFi5_ConnectCmd Variable.
         /// </summary>
         public static readonly ExpandedNodeId RpiType_WiFi_WiFi5_ConnectCmd = new ExpandedNodeId(RpiWiFiOpcUa.Variables.RpiType_WiFi_WiFi5_ConnectCmd, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
+        /// The identifier for the RpiType_WiFi_WiFi6_ConnectCmd Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId RpiType_WiFi_WiFi6_ConnectCmd = new ExpandedNodeId(RpiWiFiOpcUa.Variables.RpiType_WiFi_WiFi6_ConnectCmd, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
+        /// The identifier for the RpiType_WiFi_WiFi7_ConnectCmd Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId RpiType_WiFi_WiFi7_ConnectCmd = new ExpandedNodeId(RpiWiFiOpcUa.Variables.RpiType_WiFi_WiFi7_ConnectCmd, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
+        /// The identifier for the RpiType_WiFi_WiFi8_ConnectCmd Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId RpiType_WiFi_WiFi8_ConnectCmd = new ExpandedNodeId(RpiWiFiOpcUa.Variables.RpiType_WiFi_WiFi8_ConnectCmd, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
+        /// The identifier for the RpiType_WiFi_WiFi9_ConnectCmd Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId RpiType_WiFi_WiFi9_ConnectCmd = new ExpandedNodeId(RpiWiFiOpcUa.Variables.RpiType_WiFi_WiFi9_ConnectCmd, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
+        /// The identifier for the RpiType_WiFi_WiFi10_ConnectCmd Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId RpiType_WiFi_WiFi10_ConnectCmd = new ExpandedNodeId(RpiWiFiOpcUa.Variables.RpiType_WiFi_WiFi10_ConnectCmd, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
 
         /// <summary>
         /// The identifier for the RpiType_WiFi_WiFi_DisconnectCmd Variable.
@@ -606,6 +981,31 @@ namespace RpiWiFiOpcUa
         public static readonly ExpandedNodeId Rpi_WiFi_WiFi5_SSID = new ExpandedNodeId(RpiWiFiOpcUa.Variables.Rpi_WiFi_WiFi5_SSID, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
 
         /// <summary>
+        /// The identifier for the Rpi_WiFi_WiFi6_SSID Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId Rpi_WiFi_WiFi6_SSID = new ExpandedNodeId(RpiWiFiOpcUa.Variables.Rpi_WiFi_WiFi6_SSID, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
+        /// The identifier for the Rpi_WiFi_WiFi7_SSID Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId Rpi_WiFi_WiFi7_SSID = new ExpandedNodeId(RpiWiFiOpcUa.Variables.Rpi_WiFi_WiFi7_SSID, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
+        /// The identifier for the Rpi_WiFi_WiFi8_SSID Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId Rpi_WiFi_WiFi8_SSID = new ExpandedNodeId(RpiWiFiOpcUa.Variables.Rpi_WiFi_WiFi8_SSID, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
+        /// The identifier for the Rpi_WiFi_WiFi9_SSID Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId Rpi_WiFi_WiFi9_SSID = new ExpandedNodeId(RpiWiFiOpcUa.Variables.Rpi_WiFi_WiFi9_SSID, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
+        /// The identifier for the Rpi_WiFi_WiFi10_SSID Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId Rpi_WiFi_WiFi10_SSID = new ExpandedNodeId(RpiWiFiOpcUa.Variables.Rpi_WiFi_WiFi10_SSID, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
         /// The identifier for the Rpi_WiFi_SelWiFiPasskey Variable.
         /// </summary>
         public static readonly ExpandedNodeId Rpi_WiFi_SelWiFiPasskey = new ExpandedNodeId(RpiWiFiOpcUa.Variables.Rpi_WiFi_SelWiFiPasskey, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
@@ -636,6 +1036,31 @@ namespace RpiWiFiOpcUa
         public static readonly ExpandedNodeId Rpi_WiFi_WiFi5_Connected = new ExpandedNodeId(RpiWiFiOpcUa.Variables.Rpi_WiFi_WiFi5_Connected, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
 
         /// <summary>
+        /// The identifier for the Rpi_WiFi_WiFi6_Connected Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId Rpi_WiFi_WiFi6_Connected = new ExpandedNodeId(RpiWiFiOpcUa.Variables.Rpi_WiFi_WiFi6_Connected, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
+        /// The identifier for the Rpi_WiFi_WiFi7_Connected Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId Rpi_WiFi_WiFi7_Connected = new ExpandedNodeId(RpiWiFiOpcUa.Variables.Rpi_WiFi_WiFi7_Connected, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
+        /// The identifier for the Rpi_WiFi_WiFi8_Connected Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId Rpi_WiFi_WiFi8_Connected = new ExpandedNodeId(RpiWiFiOpcUa.Variables.Rpi_WiFi_WiFi8_Connected, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
+        /// The identifier for the Rpi_WiFi_WiFi9_Connected Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId Rpi_WiFi_WiFi9_Connected = new ExpandedNodeId(RpiWiFiOpcUa.Variables.Rpi_WiFi_WiFi9_Connected, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
+        /// The identifier for the Rpi_WiFi_WiFi10_Connected Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId Rpi_WiFi_WiFi10_Connected = new ExpandedNodeId(RpiWiFiOpcUa.Variables.Rpi_WiFi_WiFi10_Connected, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
         /// The identifier for the Rpi_WiFi_WiFi1_ConnectCmd Variable.
         /// </summary>
         public static readonly ExpandedNodeId Rpi_WiFi_WiFi1_ConnectCmd = new ExpandedNodeId(RpiWiFiOpcUa.Variables.Rpi_WiFi_WiFi1_ConnectCmd, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
@@ -659,6 +1084,31 @@ namespace RpiWiFiOpcUa
         /// The identifier for the Rpi_WiFi_WiFi5_ConnectCmd Variable.
         /// </summary>
         public static readonly ExpandedNodeId Rpi_WiFi_WiFi5_ConnectCmd = new ExpandedNodeId(RpiWiFiOpcUa.Variables.Rpi_WiFi_WiFi5_ConnectCmd, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
+        /// The identifier for the Rpi_WiFi_WiFi6_ConnectCmd Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId Rpi_WiFi_WiFi6_ConnectCmd = new ExpandedNodeId(RpiWiFiOpcUa.Variables.Rpi_WiFi_WiFi6_ConnectCmd, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
+        /// The identifier for the Rpi_WiFi_WiFi7_ConnectCmd Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId Rpi_WiFi_WiFi7_ConnectCmd = new ExpandedNodeId(RpiWiFiOpcUa.Variables.Rpi_WiFi_WiFi7_ConnectCmd, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
+        /// The identifier for the Rpi_WiFi_WiFi8_ConnectCmd Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId Rpi_WiFi_WiFi8_ConnectCmd = new ExpandedNodeId(RpiWiFiOpcUa.Variables.Rpi_WiFi_WiFi8_ConnectCmd, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
+        /// The identifier for the Rpi_WiFi_WiFi9_ConnectCmd Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId Rpi_WiFi_WiFi9_ConnectCmd = new ExpandedNodeId(RpiWiFiOpcUa.Variables.Rpi_WiFi_WiFi9_ConnectCmd, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
+
+        /// <summary>
+        /// The identifier for the Rpi_WiFi_WiFi10_ConnectCmd Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId Rpi_WiFi_WiFi10_ConnectCmd = new ExpandedNodeId(RpiWiFiOpcUa.Variables.Rpi_WiFi_WiFi10_ConnectCmd, RpiWiFiOpcUa.Namespaces.RpiWiFiOpcUa);
 
         /// <summary>
         /// The identifier for the Rpi_WiFi_WiFi_DisconnectCmd Variable.
@@ -725,6 +1175,21 @@ namespace RpiWiFiOpcUa
         public const string WiFi1_SSID = "WiFi1_SSID";
 
         /// <summary>
+        /// The BrowseName for the WiFi10_ConnectCmd component.
+        /// </summary>
+        public const string WiFi10_ConnectCmd = "WiFi10_ConnectCmd";
+
+        /// <summary>
+        /// The BrowseName for the WiFi10_Connected component.
+        /// </summary>
+        public const string WiFi10_Connected = "WiFi10_Connected";
+
+        /// <summary>
+        /// The BrowseName for the WiFi10_SSID component.
+        /// </summary>
+        public const string WiFi10_SSID = "WiFi10_SSID";
+
+        /// <summary>
         /// The BrowseName for the WiFi2_ConnectCmd component.
         /// </summary>
         public const string WiFi2_ConnectCmd = "WiFi2_ConnectCmd";
@@ -783,6 +1248,66 @@ namespace RpiWiFiOpcUa
         /// The BrowseName for the WiFi5_SSID component.
         /// </summary>
         public const string WiFi5_SSID = "WiFi5_SSID";
+
+        /// <summary>
+        /// The BrowseName for the WiFi6_ConnectCmd component.
+        /// </summary>
+        public const string WiFi6_ConnectCmd = "WiFi6_ConnectCmd";
+
+        /// <summary>
+        /// The BrowseName for the WiFi6_Connected component.
+        /// </summary>
+        public const string WiFi6_Connected = "WiFi6_Connected";
+
+        /// <summary>
+        /// The BrowseName for the WiFi6_SSID component.
+        /// </summary>
+        public const string WiFi6_SSID = "WiFi6_SSID";
+
+        /// <summary>
+        /// The BrowseName for the WiFi7_ConnectCmd component.
+        /// </summary>
+        public const string WiFi7_ConnectCmd = "WiFi7_ConnectCmd";
+
+        /// <summary>
+        /// The BrowseName for the WiFi7_Connected component.
+        /// </summary>
+        public const string WiFi7_Connected = "WiFi7_Connected";
+
+        /// <summary>
+        /// The BrowseName for the WiFi7_SSID component.
+        /// </summary>
+        public const string WiFi7_SSID = "WiFi7_SSID";
+
+        /// <summary>
+        /// The BrowseName for the WiFi8_ConnectCmd component.
+        /// </summary>
+        public const string WiFi8_ConnectCmd = "WiFi8_ConnectCmd";
+
+        /// <summary>
+        /// The BrowseName for the WiFi8_Connected component.
+        /// </summary>
+        public const string WiFi8_Connected = "WiFi8_Connected";
+
+        /// <summary>
+        /// The BrowseName for the WiFi8_SSID component.
+        /// </summary>
+        public const string WiFi8_SSID = "WiFi8_SSID";
+
+        /// <summary>
+        /// The BrowseName for the WiFi9_ConnectCmd component.
+        /// </summary>
+        public const string WiFi9_ConnectCmd = "WiFi9_ConnectCmd";
+
+        /// <summary>
+        /// The BrowseName for the WiFi9_Connected component.
+        /// </summary>
+        public const string WiFi9_Connected = "WiFi9_Connected";
+
+        /// <summary>
+        /// The BrowseName for the WiFi9_SSID component.
+        /// </summary>
+        public const string WiFi9_SSID = "WiFi9_SSID";
     }
     #endregion
 

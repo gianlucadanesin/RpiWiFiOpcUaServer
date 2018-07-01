@@ -20,7 +20,11 @@ namespace netcoreapp
             string cmdResult = string.Empty;
             if (!isWindows)
             {
-                cmdResult = run_cmd("nmcli", "device wifi list");
+                try
+                {
+                    cmdResult = run_cmd("nmcli", "device wifi list");
+                }
+                catch (Exception) { }
             }
             else
             {
@@ -28,17 +32,37 @@ namespace netcoreapp
                             "   TEST_WIFI_SSID  Infra  11    54 Mbit/s  100     ▂▄▆█  WPA2     \n" +
                             "*  TEST_WIFI_SSID2 Infra  6     54 Mbit/s  30      ▂___  WPA2     \n" +
                             "   TESTWIFI        Infra  6     54 Mbit/s  30      ▂___  WPA2     \n" +
+                            "   TESTWIFI2       Infra  6     54 Mbit/s  30      ▂___  WPA2     \n" +
+                            "   TESTWIFI3       Infra  6     54 Mbit/s  30      ▂___  WPA2     \n" +
+                            "   TESTWIFI4       Infra  6     54 Mbit/s  30      ▂___  WPA2     \n" +
+                            "   TESTWIFI5       Infra  6     54 Mbit/s  30      ▂___  WPA2     \n" +
+                            "   TESTWIFI6       Infra  6     54 Mbit/s  30      ▂___  WPA2     \n" +
+                            "   TESTWIFI7       Infra  6     54 Mbit/s  30      ▂___  WPA2     \n" +
+                            "   TESTWIFI8       Infra  6     54 Mbit/s  30      ▂___  WPA2     \n" +
                             "   TESTWIFI        Infra  6     54 Mbit/s  30      ▂___  WEP      \n";
             }
             string HeaderRow = cmdResult.Split(new char[] { '\n' })[0];
-            int SSIDBegin = HeaderRow.IndexOf("SSID");
-            int MODEBegin = HeaderRow.IndexOf("MODE");
-            int CHANBegin = HeaderRow.IndexOf("CHAN");
-            int RATEBegin = HeaderRow.IndexOf("RATE");
-            int SIGNALBegin = HeaderRow.IndexOf("SIGNAL");
-            int BARSBegin = HeaderRow.IndexOf("BARS");
-            int SECURITYBegin = HeaderRow.IndexOf("SECURITY");
-            int SECURITYEnd = HeaderRow.Length;
+            int SSIDBegin = -1;
+            int MODEBegin = -1;
+            int CHANBegin = -1;
+            int RATEBegin = -1;
+            int SIGNALBegin = -1;
+            int BARSBegin = -1;
+            int SECURITYBegin = -1;
+            int SECURITYEnd = -1;
+
+            try
+            {
+                SSIDBegin = HeaderRow.IndexOf("SSID");
+                MODEBegin = HeaderRow.IndexOf("MODE");
+                CHANBegin = HeaderRow.IndexOf("CHAN");
+                RATEBegin = HeaderRow.IndexOf("RATE");
+                SIGNALBegin = HeaderRow.IndexOf("SIGNAL");
+                BARSBegin = HeaderRow.IndexOf("BARS");
+                SECURITYBegin = HeaderRow.IndexOf("SECURITY");
+                SECURITYEnd = HeaderRow.Length;
+            }
+            catch (Exception) { }
             List<string> SSIDEntries = cmdResult.Split(new char[] { '\n' }).Skip(1).ToList<String>();
             /*
 *  SSID            MODE   CHAN  RATE       SIGNAL  BARS  SECURITY 
@@ -70,8 +94,12 @@ namespace netcoreapp
                             .IsOSPlatform(OSPlatform.Windows);
             if (!isWindows)
             {
-                run_cmd("nmcli", $"device disconnect wlan0");
-                Console.Write("WiFi disconnected");
+                try
+                {
+                    run_cmd("nmcli", $"device disconnect wlan0");
+                    Console.Write("WiFi disconnected");
+                }
+                catch (Exception) { }
             }
         }
 
@@ -81,8 +109,12 @@ namespace netcoreapp
                             .IsOSPlatform(OSPlatform.Windows);
             if (!isWindows)
             {
-                run_cmd("nmcli", $"device wifi connect \"{SelSSID}\" password \"{SelPassword}\"");
-                Console.Write($"Command received: connect to WiFi SSID \"{SelSSID}\" with pass \"{SelPassword}\"");
+                try
+                {
+                    run_cmd("nmcli", $"device wifi connect \"{SelSSID}\" password \"{SelPassword}\"");
+                    Console.Write($"Command received: connect to WiFi SSID \"{SelSSID}\" with pass \"{SelPassword}\"");
+                }
+                catch (Exception) {}
             }
         }
 
@@ -94,7 +126,11 @@ namespace netcoreapp
             string Status = string.Empty;
             if (!isWindows)
             {
-                Status = run_cmd("nmcli", "device status");
+                try
+                {
+                    Status = run_cmd("nmcli", "device status");
+                }
+                catch (Exception){}
                 /*
 DEVICE  TYPE      STATE      CONNECTION       
 eth0    ethernet  connected  Ifupdown (eth0)  
@@ -137,7 +173,6 @@ lo      loopback  unmanaged  --
             }
             return rv;
         }
-
 
         private static String run_cmd(string cmd, string args)
         {

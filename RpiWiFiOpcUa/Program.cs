@@ -149,7 +149,6 @@ namespace NetCoreApp
                 server.CurrentInstance.SessionManager.SessionActivated += EventStatus;
                 server.CurrentInstance.SessionManager.SessionClosing += EventStatus;
                 server.CurrentInstance.SessionManager.SessionCreated += EventStatus;
-
             }
 
             private void EventStatus(Session session, SessionEventReason reason)

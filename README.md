@@ -25,9 +25,9 @@ auto lo
 iface lo inet loopback  
   
 iface eth0 inet static  
-        address 192.168.1.132 (* MODIFY THE ADDRESS AS PREFERRED *)  
-        gateway 192.168.1.254 (* MODIFY THE ADDRESS AS PREFERRED *)   
-        netmask 255.255.255.0 (* MODIFY THE MASK AS PREFERRED *)   
+        address 192.168.1.132 (* SAMPLE IP ADDRESS *)  
+        gateway 192.168.1.254 (* SAMPLE GATEWAY IP ADDRESS *)   
+        netmask 255.255.255.0 (* SAMPLE SUBNET MASK *)   
   
 ### 4-LAUNCH NET CORE APP:
 terminal on app folder  

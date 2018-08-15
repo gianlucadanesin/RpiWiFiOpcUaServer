@@ -1,4 +1,4 @@
-# RpiWiFiOpcUaServer
+# RaspberryPi Opc Ua Server for WiFi interface management
 The aim of this project is to host an OpcUa Server on a Raspberry Pi, which gives full control of the WiFi connectivity.  
 OpcUa has been chosen, as it is commonly available in all major SCADA and HMI systems.  
 The objective of this application is to allow the SCADA or HMI operator connect the Rpi WiFi to the internet by using his own mobile phone as an hotspot.  
